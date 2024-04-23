@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://deritkqcedd3q"]
+
+[ext_resource type="Script" path="res://NoiseWander.gd" id="1_fnxi0"]
+
+[node name="head" type="Node3D"]
+script = ExtResource("1_fnxi0")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
